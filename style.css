@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #16a085;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    perspective: 600px;
+}
+
+#app{
+    width: 300px;
+    height: 500px;
+    border: 1px solid #34495e;
+    margin: auto;
+    margin-top: 100px;
+    background: #2c3e50;
+    transform: rotateY(10deg);
+    -webkit-box-shadow: -3px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -3px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -3px 4px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#calculator{
+    width: 100%;
+    height: 100%;
+}
+
+#calculator > div{
+    width: 100%;
+}
+
+#result{
+    height: 121px;
+}
+
+#mathtable{
+    height: 300px;
+}
+
+.rows{
+    width: 100%;
+    height: 60px;
+}
+
+.rows > div{
+    float: left;
+    height: 40px;
+    width: 75px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+#orange{
+    background: #e74c3c;
+    padding-top: 45px;
+    height: 15px;
+}
+
+#result > div > p{
+    width: 70%;
+    margin-left: 25%;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#doingMatch{
+    height: 50px;
+    color: #9e9e9e;
+    margin-top: 80px;
+}
+
+#answers{
+    height: 50px;
+    font-size: 45px;
+    color: white;
+}
+
